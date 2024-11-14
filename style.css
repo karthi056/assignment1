@@ -1,0 +1,74 @@
+/* Style for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header tag */
+  header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the nav tag */
+  nav {
+    background-color: #333;
+  }
+  
+  /* Style for the nav ul and a tags for navigation links */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    width: auto;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  /* Style for the main tag */
+  main {
+    background-color: #f2f2f2;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  /* Style for the footer tag */
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style for the li tag */
+  li {
+    display: inline;
+    width: auto;
+  }
+  
+  /* Style for the h1 tag */
+  h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #333;
+  }
+  
+  /* Style for the p tag */
+  p {
+    line-height: 1.6;
+  }
+  
