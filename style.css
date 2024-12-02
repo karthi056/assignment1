@@ -1,0 +1,103 @@
+/* Global body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: auto;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+/* Style for images in nav */
+nav img {
+  width: 10%;
+}
+
+/* Main Content Styles */
+main {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  padding: 20px;
+}
+
+#main {
+  padding-top: 50px; /* To prevent content being hidden behind the fixed header */
+}
+
+/* Grid Layout Styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* h1 and p Styles */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
